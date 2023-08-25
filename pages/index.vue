@@ -34,7 +34,7 @@ export default {
   name: 'IndexPage',
   methods: {
     handleClick: function () {
-      window.location = 'http://localhost:3000/view-2d'
+      window.location = window.location.hostname + '/view-2d'
     },
   },
 }
