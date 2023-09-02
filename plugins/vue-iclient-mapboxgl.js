@@ -10,7 +10,7 @@ const quinary = '#C3CEDA'
 
 let theme = {
   textColor: primary,
-  background: quinary,
+  background: white,
   componentBackground: white,
   clickColor: secondary,
   hoverColor: secondary,

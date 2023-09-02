@@ -12,6 +12,7 @@ module.exports = plugin(function ({ addBase, theme }) {
     '#__layout': {
       width: '100%',
       height: '100vh',
+      // "@apply py-5": {},
     },
   })
 })
