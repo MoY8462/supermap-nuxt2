@@ -30,12 +30,21 @@
 </template>
 
 <script>
+import { setTheme } from '@supermap/vue-iclient-mapboxgl/lib/_utils/style/theme/set-theme'
+
 export default {
   name: 'IndexPage',
+  data() {
+    return {
+      modeScene: false,
+    }
+  },
   methods: {
     handleClick: function () {
       // console.log(window.location  + 'view-2d')
       window.location = window.location + 'view-2d'
+      // this.modeScene = !this.modeScene
+      // setTheme(this.modeScene ? 'dark' : 'light');
     },
   },
 }
